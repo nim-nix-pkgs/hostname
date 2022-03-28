@@ -11,7 +11,6 @@
   inputs.src-hostname-main.ref   = "refs/heads/main";
   inputs.src-hostname-main.owner = "rominf";
   inputs.src-hostname-main.repo  = "nim-hostname";
-  inputs.src-hostname-main.dir   = "";
   inputs.src-hostname-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
